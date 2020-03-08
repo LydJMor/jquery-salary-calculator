@@ -1,0 +1,21 @@
+header {
+    text-align: center;
+    background-color: cadetblue;
+    height: 75px;
+}
+
+main{
+    background-color: lightcyan;
+}
+
+#tableHead{
+    border: 2px solid black;
+}
+
+#tableBody{
+    border: 2px solid black;
+}
+
+#btn-calc{
+    float: right;
+}

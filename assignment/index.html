@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SalCal</title>
+    <link rel="stylesheet" href="bootstrap-4.4.1-dist copy/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="jquery-3.4.1.min copy 3.js" charset="UTF-8"></script>
+    <script src="bootstrap-4.4.1-dist copy/js/bootstrap.min.js" charset="UTF-8"></script>
+    
+</head>
+<body>
+    
+    <header>
+        <h2>SalCal Salary Calculator</h2>
+    </header>
+    <main>
+        <br/>
+       <form id="employeeInput">
+            <input type="text" id="in-first" placeholder="First"/>
+            <input type="text" id="in-last" placeholder="Last"/>
+            <input type="text" id="in-id" placeholder="ID"/>
+            <input type="text" id="in-title" placeholder="Title"/>
+            <input type="text" id="in-salary" placeholder="Annual Salary"/>
+            <button type="submit" id="btn-add">submit</button>
+       </form>
+       <br />
+       <table class="table">
+        <thead id="tableHead" class="thead-light">
+          <tr>
+            <th scope="col" class="tableFirst">First</th>
+            <th scope="col" class="tableLast">Last</th>
+            <th scope="col" class="tableID">ID</th>
+            <th scope="col" class="tableTitle">Title</th>
+            <th scope="col" class="tableSalary">Annual Salary</th>
+            <th scope="col" class="tableTerminate">Terminate</th>
+          </tr>
+        </thead>
+        <tbody id="tableBody">
+          <tr>
+            <th scope="row" class="tableFirst">Ben</th>
+            <td class="tableLast">Sisko</td>
+            <td class="tableID">800813</td>
+            <td class="tableTitle">Captain</td>
+            <td class="tableSalary">4 strips of latinum</td>
+            <td class="tableTerminate"><button id="terminate">terminate</button></td>
+          </tr>
+        </tbody>
+      </table>
+      <button id="btn-calc">Calulate</button>
+     </main>
+
+  
+
+</body>
+</html>
