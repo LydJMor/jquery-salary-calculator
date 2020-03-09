@@ -7,8 +7,7 @@
     <link rel="stylesheet" href="bootstrap-4.4.1-dist copy/css/bootstrap.min.css">
     <link rel="stylesheet" href="style.css">
     <script src="jquery-3.4.1.min copy 3.js" charset="UTF-8"></script>
-    <script src="bootstrap-4.4.1-dist copy/js/bootstrap.min.js" charset="UTF-8"></script>
-    
+    <script src="client.js"></script>
 </head>
 <body>
     
@@ -27,24 +26,24 @@
        </form>
        <br />
        <table class="table">
-        <thead id="tableHead" class="thead-light">
+        <thead>
           <tr>
-            <th scope="col" class="tableFirst">First</th>
-            <th scope="col" class="tableLast">Last</th>
-            <th scope="col" class="tableID">ID</th>
-            <th scope="col" class="tableTitle">Title</th>
-            <th scope="col" class="tableSalary">Annual Salary</th>
-            <th scope="col" class="tableTerminate">Terminate</th>
+            <th scope="col" id="headFirst">First</th>
+            <th scope="col" id="headLast">Last</th>
+            <th scope="col" id="headID">ID</th>
+            <th scope="col" id="headTitle">Title</th>
+            <th scope="col" id="headSalary">Annual Salary</th>
+            <th scope="col" id="headTerminate"></th>
           </tr>
         </thead>
         <tbody id="tableBody">
-          <tr>
-            <th scope="row" class="tableFirst">Ben</th>
-            <td class="tableLast">Sisko</td>
-            <td class="tableID">800813</td>
-            <td class="tableTitle">Captain</td>
-            <td class="tableSalary">4 strips of latinum</td>
-            <td class="tableTerminate"><button id="terminate">terminate</button></td>
+          <tr id="tableInput">
+            <td id="tableFirst"></td>
+            <td id="tableLast"></td>
+            <td id="tableID"></td>
+            <td id="tableTitle"></td>
+            <td id="tableSalary"></td>
+            <td id="tableTerminate"><button id="terminate">terminate</button></td>
           </tr>
         </tbody>
       </table>
