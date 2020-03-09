@@ -8,7 +8,7 @@ main{
     background-color: lightcyan;
 }
 
-#tableHead{
+.tableHead{
     border: 2px solid black;
     background-color: cadetblue;
 }
@@ -19,4 +19,8 @@ main{
 
 #btn-calc{
     float: right;
+}
+
+.wages{
+    background-color: cadetblue;
 }
